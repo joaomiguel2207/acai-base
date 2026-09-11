@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#7b4bb7"/><stop offset="1" stop-color="#b18ad6"/></linearGradient></defs>
+<rect width="800" height="600" fill="#f3ecfb"/>
+<ellipse cx="400" cy="505" rx="180" ry="28" fill="#d8c5e9"/>
+<path d="M260 210 Q400 150 540 210 L510 490 Q400 550 290 490 Z" fill="url(#g)"/>
+<ellipse cx="400" cy="210" rx="140" ry="45" fill="#5b2d83"/>
+<circle cx="350" cy="195" r="18" fill="#a978d0"/><circle cx="420" cy="185" r="14" fill="#c09be0"/><circle cx="460" cy="210" r="12" fill="#8d5bb5"/>
+<text x="400" y="350" text-anchor="middle" font-family="Arial" font-weight="900" font-size="52" fill="#fff">AÇAÍ</text>
+<text x="400" y="395" text-anchor="middle" font-family="Arial" font-weight="700" font-size="22" fill="#ffd447">ILUSTRAÇÃO</text>
+</svg>
