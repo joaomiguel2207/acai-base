@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Açaí artesanal, cremoso e cheio de sabor. Monte seu açaí ou peça nossas opções especiais pelo WhatsApp.">
+  <meta name="keywords" content="açaí, açaí delivery, açaí com Nutella, açaí com Ninho, monte seu açaí">
+  <meta name="theme-color" content="#7b4bb7">
+  <title>Açaí Mania | Seu açaí do seu jeito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header" id="inicio">
+    <nav class="nav container">
+      <a href="#inicio" class="logo" aria-label="Açaí Mania - início">
+        <span class="logo-mark">🍇</span>
+        <span>Açaí<span>Mania</span></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#ofertas">Ofertas</a>
+        <a href="#monte">Monte seu açaí</a>
+        <a href="#combos">Combos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <span class="eyebrow reveal-down">CREMOSO • GELADINHO • DO SEU JEITO</span>
+          <h1 class="reveal-down delay-1">Seu momento merece um <strong>açaí incrível.</strong></h1>
+          <p class="reveal-down delay-2">Escolha seu favorito, monte do seu jeito e peça pelo WhatsApp em poucos cliques.</p>
+          <div class="hero-actions reveal-down delay-3">
+            <a class="btn btn-yellow" href="#ofertas">Ver ofertas</a>
+            <a class="btn btn-outline" href="#monte">Montar meu açaí</a>
+          </div>
+        </div>
+
+        <a class="hero-acai reveal-acai" href="#ofertas" aria-label="Ir para as ofertas de açaí">
+          <div class="acai-shadow"></div>
+          <div class="acai-cup">
+            <div class="acai-top"></div>
+            <div class="cup-label">AÇAÍ<br><small>MANIA</small></div>
+            <div class="cup-shine"></div>
+          </div>
+          <div class="hero-badge">CLIQUE<br><small>e peça o seu!</small></div>
+        </a>
+      </div>
+
+      <div class="hero-wave"></div>
+    </section>
+
+    <section class="section" id="ofertas">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">NOSSOS FAVORITOS</span>
+          <h2>Ofertas que dão água na boca</h2>
+          <p>Escolha seu favorito e mande o pedido direto para o nosso WhatsApp.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-image">
+              <img src="images/acai-banana-leite-condensado.jpg" alt="Açaí de banana com leite condensado de 500 ml" onerror="this.src='images/placeholder.svg'">
+              <span class="product-tag">QUERIDINHO</span>
+            </div>
+            <div class="product-info">
+              <span class="product-size">500 ML</span>
+              <h3>Açaí de banana com leite condensado</h3>
+              <p>Banana + leite condensado em uma combinação clássica e cremosa.</p>
+              <div class="product-bottom">
+                <strong>R$ 30</strong>
+                <button class="btn btn-small order-btn" data-product="Açaí de banana com leite condensado — 500 ml — R$ 30">Pedir agora</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card featured reveal">
+            <div class="product-image">
+              <img src="images/acai-ninho-nutella.jpg" alt="Açaí de Ninho com Nutella de 500 ml" onerror="this.src='images/placeholder.svg'">
+              <span class="product-tag">MAIS PEDIDO</span>
+            </div>
+            <div class="product-info">
+              <span class="product-size">500 ML</span>
+              <h3>Açaí de Ninho com Nutella</h3>
+              <p>Açaí cremoso, leite Ninho e Nutella para quem gosta de caprichar.</p>
+              <div class="product-bottom">
+                <strong>R$ 40</strong>
+                <button class="btn btn-small order-btn" data-product="Açaí de Ninho com Nutella — 500 ml — R$ 40">Pedir agora</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="combos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">COMBOS</span>
+          <h2>Mais sabor, mais diversão</h2>
+          <p>Crie uma combinação para compartilhar ou deixar seu pedido ainda mais completo.</p>
+        </div>
+
+        <div class="combo-grid">
+          <article class="combo-card reveal">
+            <div class="combo-icon">🍓</div>
+            <div>
+              <span>COMBO 01</span>
+              <h3>Dupla do Açaí</h3>
+              <p>2 açaís de 500 ml + 2 adicionais à escolha.</p>
+              <strong>R$ 69,90</strong>
+            </div>
+            <button class="btn btn-small order-btn" data-product="Combo Dupla do Açaí — 2 açaís de 500 ml + 2 adicionais">Quero esse combo</button>
+          </article>
+
+          <article class="combo-card reveal">
+            <div class="combo-icon">💜</div>
+            <div>
+              <span>COMBO 02</span>
+              <h3>Família Açaí</h3>
+              <p>3 açaís de 500 ml + 3 adicionais à escolha.</p>
+              <strong>R$ 99,90</strong>
+            </div>
+            <button class="btn btn-small order-btn" data-product="Combo Família Açaí — 3 açaís de 500 ml + 3 adicionais">Quero esse combo</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="monte">
+      <div class="container">
+        <div class="builder reveal">
+          <div class="builder-intro">
+            <span class="eyebrow">PERSONALIZE</span>
+            <h2>Monte seu açaí</h2>
+            <p>Escolha os adicionais que você quiser. Cada adicional custa <strong>R$ 5,50</strong>.</p>
+            <div class="builder-price">
+              <span>Total</span>
+              <strong id="total-price">R$ 35,50</strong>
+            </div>
+          </div>
+
+          <div class="builder-options">
+            <div class="base-selector">
+              <h3>Escolha a base</h3>
+              <label class="base-option active">
+                <input type="radio" name="base" value="Açaí 500 ml" data-price="30" checked>
+                <span>Açaí 500 ml</span>
+                <strong>R$ 30</strong>
+              </label>
+            </div>
+
+            <h3>Adicionais <small>(R$ 5,50 cada)</small></h3>
+            <div class="extras-grid">
+              <label class="extra-option">
+                <input type="checkbox" value="Banana" data-price="5.5">
+                <img src="images/banana.jpg" alt="Banana" onerror="this.src='images/placeholder.svg'">
+                <span>Banana</span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" value="Leite em pó" data-price="5.5">
+                <img src="images/leite-em-po.jpg" alt="Leite em pó" onerror="this.src='images/placeholder.svg'">
+                <span>Leite em pó</span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" value="Leite condensado" data-price="5.5">
+                <img src="images/leite-condensado.jpg" alt="Leite condensado" onerror="this.src='images/placeholder.svg'">
+                <span>Leite condensado</span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" value="Creme de avelã" data-price="5.5">
+                <img src="images/creme-de-avela.jpg" alt="Creme de avelã" onerror="this.src='images/placeholder.svg'">
+                <span>Creme de avelã</span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" value="Nutella" data-price="5.5">
+                <img src="images/nutella.jpg" alt="Nutella" onerror="this.src='images/placeholder.svg'">
+                <span>Nutella</span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" value="Kit Kat" data-price="5.5">
+                <img src="images/kit-kat.jpg" alt="Kit Kat" onerror="this.src='images/placeholder.svg'">
+                <span>Kit Kat</span>
+              </label>
+              <label class="extra-option">
+                <input type="checkbox" value="Kinder Bueno" data-price="5.5">
+                <img src="images/kinder-bueno.jpg" alt="Kinder Bueno" onerror="this.src='images/placeholder.svg'">
+                <span>Kinder Bueno</span>
+              </label>
+            </div>
+
+            <button class="btn btn-whatsapp builder-btn" id="builder-whatsapp">Montar e pedir pelo WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">GALERIA</span>
+          <h2>Olha essa cremosidade 💜</h2>
+        </div>
+        <div class="gallery-grid">
+          <img class="reveal" src="images/galeria-1.jpg" alt="Açaí cremoso servido no copo" onerror="this.src='images/placeholder.svg'">
+          <img class="reveal" src="images/galeria-2.jpg" alt="Açaí com frutas e adicionais" onerror="this.src='images/placeholder.svg'">
+          <img class="reveal" src="images/galeria-3.jpg" alt="Açaí com chocolate" onerror="this.src='images/placeholder.svg'">
+          <img class="reveal" src="images/galeria-4.jpg" alt="Açaí personalizado" onerror="this.src='images/placeholder.svg'">
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-layout">
+        <div class="section-heading reveal">
+          <span class="eyebrow">DÚVIDAS</span>
+          <h2>Perguntas frequentes</h2>
+          <p>Alguma dúvida antes de pedir? Talvez a resposta esteja aqui.</p>
+        </div>
+
+        <div class="faq-list reveal">
+          <details>
+            <summary>Vocês fazem delivery?</summary>
+            <p>Sim! Atendemos por delivery. O valor e a área de entrega podem variar de acordo com o endereço.</p>
+          </details>
+          <details>
+            <summary>Posso montar meu açaí?</summary>
+            <p>Claro! Na seção “Monte seu açaí”, você escolhe a base e os adicionais que quiser.</p>
+          </details>
+          <details>
+            <summary>Quanto custa cada adicional?</summary>
+            <p>Cada adicional disponível no site custa R$ 5,50.</p>
+          </details>
+          <details>
+            <summary>Como faço meu pedido?</summary>
+            <p>Clique em qualquer botão de pedido. O WhatsApp será aberto com uma mensagem pronta com seu pedido.</p>
+          </details>
+          <details>
+            <summary>Posso pedir pelo Instagram?</summary>
+            <p>Você pode chamar a loja pelo Instagram, mas recomendamos o WhatsApp para agilizar o pedido.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contato">
+      <div class="container cta-box reveal">
+        <div>
+          <span class="eyebrow">BATEU A VONTADE?</span>
+          <h2>Peça agora mesmo o seu açaí 💜</h2>
+          <p>Escolha seu favorito e fale com a gente pelo WhatsApp.</p>
+        </div>
+        <a class="btn btn-yellow btn-large whatsapp-main" href="#" target="_blank" rel="noopener">Peça agora mesmo o seu açaí</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="logo footer-logo"><span class="logo-mark">🍇</span><span>Açaí<span>Mania</span></span></a>
+        <p>Seu açaí, suas escolhas, seu momento.</p>
+      </div>
+
+      <div>
+        <h3>Links</h3>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#monte">Monte seu açaí</a>
+        <a href="#combos">Combos</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div>
+        <h3>Siga a gente</h3>
+        <div class="socials">
+          <a href="https://instagram.com/SEU_INSTAGRAM" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://facebook.com/SEU_FACEBOOK" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Açaí Mania. Todos os direitos reservados.</p>
+      <p>Site demonstrativo</p>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp whatsapp-main" href="#" target="_blank" rel="noopener" aria-label="Pedir açaí pelo WhatsApp">WhatsApp</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
